@@ -5,7 +5,7 @@ namespace Collections
 {
     public class Collection<T>
     {
-        private const int InitialCapacity = 16;
+        private const int InitialCapacity = 4;
         private T[] items;
         public int Capacity => this.items.Length;
         public int Count { get; private set; }
