@@ -23,7 +23,7 @@ namespace Collections
         {
             this.EnsureCapacity();
             this.items[this.Count] = item;
-            this.Count++;
+            this.Count--;
         }
 
         public void AddRange(params T[] items)
